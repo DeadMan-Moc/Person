@@ -8,7 +8,7 @@ class Person{
 
   hello(){
     let a = this.interests.pop();
-     let b =`Hello, my name is ${this.name} and I am ${this.age} years old. My interests are ${this.interests} and `+a +'.'
+    let b =`Hello, my name is ${this.name} and I am ${this.age} years old. My interests are ${this.interests} and `+a 
     return b;
   }
 }
